@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Signika+Negative&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;    
 }
 body { 
-    background: lightblue url(../xyz-zoo/nature-sand-texture-summer-sun-nature-background-concept_63047-1425.jpg) no-repeat fixed center; 
+    background: url(../xyz-zoo/nature-sand-texture-summer-sun-nature-background-concept_63047-1425.jpg) no-repeat fixed center; 
     background-size: cover;
   }
 .font-poorstory {
@@ -15,6 +15,17 @@ body {
     max-width: 990px;
     width: 100%;
     margin: 0 auto;
+    padding-top: 0px;
+}
+#top {
+    background: #6b5a357e;
+    color: #fff;
+    padding: 10px 10px 10px;
+    /* padding-top: 50px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px; */
+    margin-bottom: 20px;
 }
 .banner {    
     padding-left: 10px;
@@ -28,6 +39,7 @@ h1 {
     color: #30220f;
     font-family: 'Poor Story', cursive;
     text-align: center;
+    font-size: 50px;
 }
 .font-blue {
     color: #7b9ce4;
@@ -76,6 +88,7 @@ h1 {
     height: 150px;
     width: 49%;    
     overflow: hidden;
+    border-radius: 10px;
 }
 .kiri, .kanan {
     width: 100%;
@@ -83,13 +96,13 @@ h1 {
 }
 .kiri:hover::after  {
     filter: none;
-    transform: scaleY(1.2);
-    transition: all .3s ease-in;
+    transform: scale(1.5,1.5);
+    transition: all .5s ease-in;
 }
 .kanan:hover::after {
     filter: none;
-    transform: scaleY(1.2);
-    transition: all .3s ease-in;
+    transform: scale(1.5,1.5);
+    transition: all .5s ease-in;
 }
 .project {
     display: flex;
@@ -98,19 +111,21 @@ h1 {
 }
 .project a {
     text-decoration: none;
-    font-size: 48px;
-    font-family: 'Kolker Brush', cursive;
+    font-size: 40px;
+    font-family: 'Signika Negative', sans-serif;
     color: #fff;
     display: block;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.295);    
+    background: rgba(0, 0, 0, 0.295);
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .project a:hover {
 }
+
 .project-card {
     overflow: hidden;
 }
