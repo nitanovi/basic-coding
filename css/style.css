@@ -5,7 +5,7 @@
     box-sizing: border-box;    
 }
 body { 
-    background: url(../xyz-zoo/nature-sand-texture-summer-sun-nature-background-concept_63047-1425.jpg) no-repeat fixed center; 
+    background: url(../xyz-zoo/img/nature-sand-texture-summer-sun-nature-background-concept_63047-1425.jpg) no-repeat fixed center; 
     background-size: cover;
   }
 .font-poorstory {
@@ -45,11 +45,9 @@ h1 {
     color: #7b9ce4;
 }
 .kiri {
-    filter: drop-shadow(8px 8px 10px gray);
     position: relative; 
 }
 .kanan {
-    filter: drop-shadow(8px 8px 10px gray);
     position: relative; 
 }
 .kiri::after {
@@ -69,7 +67,7 @@ h1 {
     z-index: 10;
 }
 .kanan::after {
-    background-image: url(../xyz-zoo/66131-1597937906.jpeg);
+    background-image: url(../xyz-zoo/img/66131-1597937906.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,6 +87,7 @@ h1 {
     width: 49%;    
     overflow: hidden;
     border-radius: 10px;
+    filter: drop-shadow(8px 8px 10px rgba(102, 85, 39, 0.603));
 }
 .kiri, .kanan {
     width: 100%;
