@@ -129,6 +129,58 @@ h1 {
     overflow: hidden;
 }
 
+/* CSS ZOO */
+
+#xyz-zoo {
+    background: url(../xyz-zoo/img/4965617.jpg); 
+    background-repeat:no-repeat; 
+    background-size: cover;
+}
+#xyz-zoo .top {
+    background: #c98ec0c0; width: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 10px 10px;
+    /* padding-top: 50px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px; */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.animal-list {
+    background: #fff7fec0; width: 990px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    border-radius: 10px;
+    color: #30220f;
+    padding: 10px 10px 10px;
+}
+.animal-list > li h2 {
+    width: 100%;
+}
+.familia-list {
+    margin: 15px 15px 15px 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display:flex
+}
+.familia-list li{
+    width: 48%;
+    list-style: none;
+}
+.familia-list img {
+    display: block;
+    width: 100%;
+}
+
 @media only screen and (max-width: 425px) {
     .kiri, .kanan {
         width: 100%;
@@ -141,6 +193,12 @@ h1 {
     }
     .project a {
         font-size: 12px;
+    }
+    .familia-list li{
+        width: 100%;
+    }
+    .animal-list li{
+        width: 100%;
     }
 }
 
