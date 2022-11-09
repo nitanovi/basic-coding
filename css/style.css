@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Poppins&family=Signika+Negative&display=swap');
 
 * {
     margin: 0;
@@ -158,8 +158,8 @@ h1 {
 }
 
 #xyz-zoo .top {
-    background: #c98ec0c0;
-    width: 500px;
+    background: #ca7c83;
+    max-width: 500px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -177,8 +177,8 @@ h1 {
 }
 
 .animal-list>li {
-    background: #fff7fec0;
-    width: 990px;
+    background: #fff7fedc;
+    max-width: 990px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -198,7 +198,7 @@ h1 {
 .familia-list {
     margin: 15px 15px 15px 15px;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex
 }
 
@@ -214,6 +214,26 @@ h1 {
 li {
     list-style-type: none;
 }
+
+p {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.2;
+    margin-top: 10px;
+    text-align: justify;
+    }
+
+    #source {
+    background: #ca7c83;
+    color: #fff;
+    padding: 10px 10px 10px;
+}
+    .text-source{
+    text-align: start;
+    }
+    ol{
+    text-align: start;
+    }
+
 
 @media only screen and (max-width: 425px) {
 
@@ -242,7 +262,6 @@ li {
         width: 100%;
     }
 }
-
 @media only screen and (max-width: 990px) {
     .container {
         padding: 0 10px;
