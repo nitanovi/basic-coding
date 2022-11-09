@@ -210,9 +210,6 @@ h1 {
     display: block;
     width: 100%;
 }
-.animal-pic{
-    cursor: none;
-}
 .animal-pic:hover{
     filter: none;
     transform: scale(1.2, 1.2);
@@ -237,14 +234,15 @@ p {
 }
     .text-source{
     text-align: start;
-    }
+    font-weight: 900;
+}
     ol{
     text-align: start;
     }
 
 /* CSS TABLE FORM */
 
-
+.content {}
 
 @media only screen and (max-width: 425px) {
 
