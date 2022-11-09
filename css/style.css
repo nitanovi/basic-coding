@@ -1,22 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Signika+Negative&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;    
+    box-sizing: border-box;
 }
-body { 
-    background: url(../xyz-zoo/img/nature-sand-texture-summer-sun-nature-background-concept_63047-1425.jpg) no-repeat fixed center; 
+
+body {
+    background: url(../xyz-zoo/img/nature-sand-texture-summer-sun-nature-background-concept_63047-1425.jpg) no-repeat fixed center;
     background-size: cover;
-  }
+}
+
 .font-poorstory {
     font-family: 'Poor Story', cursive;
 }
+
 .container {
     max-width: 990px;
     width: 100%;
     margin: 0 auto;
     padding-top: 0px;
 }
+
 #top {
     background: #6b5a357e;
     color: #fff;
@@ -27,29 +32,36 @@ body {
     padding-left: 15px; */
     margin-bottom: 20px;
 }
-.banner {    
+
+.banner {
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .banner img {
     display: block;
     width: 100%;
 }
+
 h1 {
     color: #30220f;
     font-family: 'Poor Story', cursive;
     text-align: center;
     font-size: 50px;
-}   
+}
+
 .font-blue {
     color: #7b9ce4;
 }
+
 .kiri {
-    position: relative; 
+    position: relative;
 }
+
 .kanan {
-    position: relative; 
+    position: relative;
 }
+
 .kiri::after {
     background-image: url(../xyz-zoo/img/zoo.jpg);
     background-position: center center;
@@ -66,6 +78,7 @@ h1 {
     position: relative;
     z-index: 10;
 }
+
 .kanan::after {
     background-image: url(../xyz-zoo/img/66131-1597937906.jpeg);
     background-position: center center;
@@ -82,32 +95,39 @@ h1 {
     position: relative;
     z-index: 10;
 }
+
 .project-card {
     height: 150px;
-    width: 49%;    
+    width: 49%;
     overflow: hidden;
     border-radius: 10px;
     filter: drop-shadow(8px 8px 10px rgba(102, 85, 39, 0.603));
 }
-.kiri, .kanan {
+
+.kiri,
+.kanan {
     width: 100%;
     height: 100%;
 }
-.kiri:hover::after  {
+
+.kiri:hover::after {
     filter: none;
-    transform: scale(1.5,1.5);
+    transform: scale(1.5, 1.5);
     transition: all .5s ease-in;
 }
+
 .kanan:hover::after {
     filter: none;
-    transform: scale(1.5,1.5);
+    transform: scale(1.5, 1.5);
     transition: all .5s ease-in;
 }
+
 .project {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .project a {
     text-decoration: none;
     font-size: 40px;
@@ -122,8 +142,8 @@ h1 {
     justify-content: center;
     align-items: center;
 }
-.project a:hover {
-}
+
+.project a:hover {}
 
 .project-card {
     overflow: hidden;
@@ -132,12 +152,14 @@ h1 {
 /* CSS ZOO */
 
 #xyz-zoo {
-    background: url(../xyz-zoo/img/4965617.jpg); 
-    background-repeat:no-repeat; 
+    background: url(../xyz-zoo/img/4965617.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
 }
+
 #xyz-zoo .top {
-    background: #c98ec0c0; width: 500px;
+    background: #c98ec0c0;
+    width: 500px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -154,56 +176,75 @@ h1 {
     margin-left: auto;
 }
 
-.animal-list {
-    background: #fff7fec0; width: 990px;
+.animal-list>li {
+    background: #fff7fec0;
+    width: 990px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     border-radius: 10px;
     color: #30220f;
     padding: 10px 10px 10px;
+    margin-bottom: 15px;
 }
-.animal-list > li h2 {
+
+.ngetes {
+    text-align: center;
+}
+.animal-list>li h2 {
     width: 100%;
 }
+
 .familia-list {
     margin: 15px 15px 15px 15px;
     flex-wrap: wrap;
     justify-content: space-around;
-    display:flex
+    display: flex
 }
-.familia-list li{
+
+.familia-list li {
     width: 48%;
-    list-style: none;
 }
+
 .familia-list img {
     display: block;
     width: 100%;
 }
 
+li {
+    list-style-type: none;
+}
+
 @media only screen and (max-width: 425px) {
-    .kiri, .kanan {
+
+    .kiri,
+    .kanan {
         width: 100%;
     }
+
     .kiri {
         margin-bottom: 20px;
     }
+
     h1 {
         font-size: 14px;
     }
+
     .project a {
         font-size: 12px;
     }
-    .familia-list li{
+
+    .familia-list li {
         width: 100%;
     }
-    .animal-list li{
+
+    .animal-list li {
         width: 100%;
     }
 }
 
 @media only screen and (max-width: 990px) {
     .container {
-        padding: 0 10px;   
+        padding: 0 10px;
     }
 }
