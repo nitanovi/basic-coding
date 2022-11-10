@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
 }
 #table-all {
     background-color: rgb(118, 90, 161);
@@ -34,7 +35,7 @@
     line-height: 1.1;
 }
 .table-auto {
-    overflow-x: auto;
+    overflow-x: scroll;
 }
 th {
     background-color: #4e327c;
