@@ -1,11 +1,31 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
-#table {
-    background-color: aquamarine;
+#table-all {
+    background-color: rgb(118, 90, 161);
 }
 .content {
-    line-height: 1.2;
+    line-height: 0.3;
+}
+.table {
+    background: rgb(255, 255, 255);
+    max-width: 990px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    border-radius: 10px;
+    color: #30220f;
+    padding: 1px 20px 50px 20px;
+    margin-bottom: 15px;
+}
+.form {
+    background: rgb(255, 255, 255);
+    max-width: 990px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    border-radius: 10px;
+    color: #30220f;
+    padding: 1px 20px 20px 20px;
+    margin-bottom: 15px;
 }
