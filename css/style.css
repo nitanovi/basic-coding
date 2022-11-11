@@ -273,4 +273,7 @@ p {
     .container {
         padding: 0 10px;
     }
+    .img {
+        max-height: 20px;
+    }
 }
